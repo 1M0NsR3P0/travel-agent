@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Sho-CardCapsNF';
+    src: url('font/SirinStencil-Regular.ttf') format('opentype');
+  }
+@font-face {
+    font-family: 'Mina_is_gone';
+    src: url('font/Mina_is_gone.ttf') format('opentype');
+  }
