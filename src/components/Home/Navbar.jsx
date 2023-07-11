@@ -20,8 +20,6 @@ const Navbar = () => {
                 document.getElementById('navbar').style.justifyContent = 'end'
                 document.getElementById('navLogo').style.add('transition');
                 document.getElementById('font-mina').style.fontSize = '32px'
-
-                //TODO: wanted to make the navbar content slide to the screen end when scroll
             }
         }
         window.addEventListener('scroll',scroller);
@@ -34,7 +32,7 @@ const Navbar = () => {
             <div className='nav-control' id='navbar'>
                 <div className='navbar-content' id=''>
                     <div className='navLogo' id='navLogo'>
-                    <h2 className=' font-mina text-black ' id='font-mina' title="let's go for a walk">World-Traveller</h2>
+                    <h2 className=' font-mina text-black ' id='font-mina' title="let's go for a walk">Dream Traveller</h2>
                     </div>
                 </div>
                 <div className='nav-list-container'>
