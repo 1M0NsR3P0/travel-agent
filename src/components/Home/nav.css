@@ -1,8 +1,9 @@
 .scrollTopClass{
     background-color: rgb(255, 255, 255);
     top: 0;   
-    z-index: 10;
+    z-index: 130;
     transition: height 0.2s ease;
+    
 }
 .scrollClass{
     top: 0;
@@ -10,6 +11,7 @@
     transition: height 0.4s ease;
     z-index: 10000;
     backdrop-filter: blur(10px);
+    
 }
 .navbar-container{
     width: 99vw;
@@ -19,6 +21,7 @@
     align-items: center;
     position: static;
     top: 0;
+    width: 100%;
 }
 .nav-control{
     width: 100%;

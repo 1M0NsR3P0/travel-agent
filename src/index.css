@@ -9,3 +9,6 @@
     font-family: 'Mina_is_gone';
     src: url('/public/font/Mina_is_gone.ttf') format('opentype');
   }
+  html{
+    scroll-behavior: smooth;
+  }

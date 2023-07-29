@@ -6,10 +6,12 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import router from './components/Common/Routes';
+import App from './App';
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App/>
+    {/* <RouterProvider router={router} /> */}
   </React.StrictMode>
 );
